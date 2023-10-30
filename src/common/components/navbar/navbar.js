@@ -2,14 +2,10 @@ import { ReactNode } from 'react'
 import {
   Box,
   Flex,
-  HStack,
   Link,
-  IconButton,
   Button,
-  useDisclosure,
   useColorModeValue,
   useColorMode,
-  Stack,
   Container,
 } from '@chakra-ui/react'
 import { MoonIcon, SunIcon } from '@chakra-ui/icons'
@@ -37,8 +33,8 @@ export default function Navbar() {
             <Logo />
           </Box>
 
-          <Flex gap='5'>
-            <Flex alignItems={'center'} gap={'3'}>
+          <Flex gap='10'>
+            <Flex alignItems={'center'} gap={'5'}>
               <Link href='https://github.com/devshobhit'>
                 <GithubIcon height={'clamp(15px,2.5vw,20px)'} />
               </Link>

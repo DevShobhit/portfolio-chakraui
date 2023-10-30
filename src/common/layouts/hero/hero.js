@@ -1,4 +1,14 @@
-import { Container, Box, Text, useColorModeValue } from '@chakra-ui/react'
+import {
+  Container,
+  Stack,
+  Flex,
+  Box,
+  Heading,
+  Text,
+  Button,
+  Icon,
+  useColorModeValue,
+} from '@chakra-ui/react'
 
 export default function Hero() {
   return (
@@ -19,9 +29,11 @@ export default function Hero() {
           color={'gray.600'}
           letterSpacing={'wide'}
         >
-          Cloud Certified Developer
+          FullStack Developer
         </Text>
       </Box>
     </Container>
   )
 }
+
+// With expertise in both MERN Stack and cloud I'm well-equipped to tackle even the most complex web development projects. Whether you're building a new web app from scratch or improving an existing one, I'll work tirelessly to deliver the results you're looking for.

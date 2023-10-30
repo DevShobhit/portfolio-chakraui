@@ -5,10 +5,8 @@ import {
   Heading,
   Text,
   Box,
-  Stack,
   useColorModeValue,
 } from '@chakra-ui/react'
-import { ReactElement } from 'react'
 import MailButton from '../../components/buttons'
 
 export default function About() {
@@ -42,46 +40,22 @@ export default function About() {
           'linear(180deg,rgba(35,37,49,.5),rgba(15,15,24,.5))'
         )}
         rounded='lg'
-        p={5}
+        p={10}
         color={'gray.500'}
         fontSize={['md', 'xl']}
         lineHeight={[1.8, 2]}
         my={10}
       >
-        <Text>
-          Hello, I’m <b>Shobhit</b> and I currently enjoy building web
-          applications.
-        </Text>
-        <Text>
-          I’ve been constantly honing my skills in development and production
-          building products for the web.
-        </Text>
-        <Text>
-          My Goal as a developer is to craft elegant and functional user
-          interfaces that enhance the user experience.
-        </Text>
-        <Text>
-          With experience in both Front-end and Backend Development, I'm able to
-          deliever end-to-end solutions.
-        </Text>
-        <Text>
-          Depending on the team, resources and deliverables I can wear differnet
-          hats - holding titles like Fullstack developer, Front-end Developer,
-          Backend-Developer, Cloud Developer.
-        </Text>
-        <Text>
-          Recently, earned Azure Devolper Associate and Devops Engineer Expert
-          Certifications.
-        </Text>
         <Box my={2}>
+          <Text> Enthusiastic Developer building Web Applications.</Text>
           <Text>
             Here are few technologies I've been working with recently:
           </Text>
           <SimpleGrid columns={2} spacing={2} fontSize={'md'}>
-            <Text>▹ Javascript (ES6+)</Text>
+            <Text>▹ Typescript</Text>
             <Text>▹ React.js</Text>
             <Text>▹ Node.js</Text>
-            <Text>▹ Git</Text>
+            <Text>▹ Azure</Text>
           </SimpleGrid>
         </Box>
         <Text>Have an interesting project or opportunity?</Text>
